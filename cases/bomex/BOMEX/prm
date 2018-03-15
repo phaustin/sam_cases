@@ -6,7 +6,7 @@ ccnconst = 100.
 
  &PARAMETERS
 
- caseid ='256x256x128_25m_25m_1s_ent',
+ caseid ='64x64x128_25m_25m_1s_ent',
 
  nrestart = 0,
 
@@ -59,7 +59,7 @@ ccnconst = 100.
 
  day0=0.,
 
-nstop 	= 30000,
+nstop 	= 300,
 nprint 	= 60,
 nstat 	= 60,
 nstatfrq= 60,
@@ -74,7 +74,7 @@ dosatupdnconditionals = .true.
  save2Dbin      = .false.
 
  nsave3D	= 60,
- nsave3Dstart	= 10800,
+ nsave3Dstart	= 0,
  nsave3Dend	= 999999999,
  save3Dbin      = .true.
  
